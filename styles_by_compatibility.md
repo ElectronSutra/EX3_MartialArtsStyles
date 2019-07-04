@@ -94,25 +94,25 @@ The following styles are not compatible with any other Martial Arts:
 
 | **Compatible Style**      | **Compatible Weapons**                   | **Heaviest Armor** |
 | ------------------------- | ---------------------------------------- | ------------------ |
-| Snake                     | Unarmed (L)                              |
-| Tiger                     | Unarmed (L); Tiger Claws                 |
-| White Reaper              | Unarmed (L)                              |
-| Crane                     | Unarmed (L)                              |
-| Silver-Voiced Nightingale | Unarmed (L)                              |
-| Black Claw                | Unarmed (L)                              |
-| Dreaming Pearl Courtesan  | Unarmed (L)                              |
-| Air Dragon                | Unarmed (L)                              |
-| Earth Dragon              | Unarmed (L)                              |
-| Fire Dragon               | Unarmed (L)                              |
-| Water Dragon              | Unarmed (L); Tiger Claws                 |
-| Wood Dragon               | Unarmed (L)                              |
-| Golden Janissary          | Unarmed (L)                              |
-| Mantis                    | Unarmed (L)                              |
-| White Veil                | Unarmed (L)                              |
-| Centipede                 | Unarmed (L); Fighting Chain; Tiger Claws |
-| Falcon                    | Unarmed (L); Tiger Claws                 |
-| Laughing Monster          | Unarmed (L)                              |
-| Swaying Grass             | Unarmed (L); Knife                       |
+| Snake                     | Unarmed (L)                              | None               |
+| Tiger                     | Unarmed (L); Tiger Claws                 | None               |
+| White Reaper              | Unarmed (L)                              | None               |
+| Crane                     | Unarmed (L)                              | None               |
+| Silver-Voiced Nightingale | Unarmed (L)                              | None               |
+| Black Claw                | Unarmed (L)                              | None               |
+| Dreaming Pearl Courtesan  | Unarmed (L)                              | None               |
+| Air Dragon                | Unarmed (L)                              | None               |
+| Earth Dragon              | Unarmed (L)                              | None               |
+| Fire Dragon               | Unarmed (L)                              | None               |
+| Water Dragon              | Unarmed (L); Tiger Claws                 | None               |
+| Wood Dragon               | Unarmed (L)                              | None               |
+| Golden Janissary          | Unarmed (L)                              | None               |
+| Mantis                    | Unarmed (L)                              | None               |
+| White Veil                | Unarmed (L)                              | None               |
+| Centipede                 | Unarmed (L); Fighting Chain; Tiger Claws | None               |
+| Falcon                    | Unarmed (L); Tiger Claws                 | None               |
+| Laughing Monster          | Unarmed (L)                              | None               |
+| Swaying Grass             | Unarmed (L); Knife                       | None               |
 
 ### Crane Style-compatible MAs
 
