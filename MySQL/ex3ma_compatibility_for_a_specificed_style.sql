@@ -18,12 +18,12 @@ CREATE TEMPORARY TABLE IF NOT EXISTS search_style AS
 
 CREATE TEMPORARY TABLE IF NOT EXISTS weapon_compatibility AS
   (
-    SELECT DISTINCT search_style.style_id
-                    ,search_style.style_name
-                    ,other_styles.style_id
-                    ,other_styles.style_name
-                    ,other_styles.weapon_id
-                    ,other_styles.weapon_name
+    SELECT DISTINCT search_style.style_id AS search_style_id
+                    ,search_style.style_name AS search_style_name
+                    ,other_styles.style_id AS compatible_style_id
+                    ,other_styles.style_name AS compatible_style_name
+                    ,other_styles.weapon_id AS compatible_weapon_id
+                    ,other_styles.weapon_name AS compatible_weapon_name
     FROM   search_style
 	       INNER JOIN (
              SELECT style_id
@@ -36,5 +36,9 @@ CREATE TEMPORARY TABLE IF NOT EXISTS weapon_compatibility AS
              WHERE  style_name <> @search_term) AS other_styles
 	       ON search_style.weapon_id = other_styles.weapon_id
   );
+  
+SELECT * FROM weapon_compatibility ORDER BY compatible_style_id;
+
+DROP TABLE search_style, weapon_compatibility;
   
 
